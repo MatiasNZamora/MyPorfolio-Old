@@ -27,24 +27,24 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>dummyegator@gmail.com</h5>
-            <a href="mailto:dummyegator@gmail.com" target="_blank">Send a message</a>
+            <h5>info@matiasnzamora.com</h5>
+            <a href="mailto:info@matiasnzamora.com.ar" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>egatortutorials</h5>
-            <a href="https://m.me/ernest.achiever" target="_blank">Send a message</a>
+            <h5>Matias N Zamora</h5>
+            <a href="https://www.messenger.com/t/17842132421244123" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+54 2954565149</h5>
+            <h5>+54 (02954) - 15565149</h5>
             <a href="https://api.whatsapp.com/send?phone=2954565149&text=Hola,%20gracias%20por%20contactarte%20!%20" target="_blank"> Send a message </a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}> 
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>

@@ -4,6 +4,7 @@ import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {certificate} from '../modals/certificate'
 
 const About = () => {
   return (
@@ -36,6 +37,7 @@ const About = () => {
               <VscFolderLibrary className='about__icon'/>
               <h5>Certifications</h5>
               <small>40+ Completed</small>
+              <button> View </button>
             </article>
           </div>
 

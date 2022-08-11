@@ -1,57 +1,43 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/taskerapp-1.png'
+import IMG2 from '../../assets/magios shop-1.png'
+import IMG3 from '../../assets/happytravel-1.png'
+import IMG4 from '../../assets/bienesraices-1.png'
 
-// DO NOT USE THE IMAGES IN PRODUCTION
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Tasker App',
+    github: 'https://github.com/MNZ-CoderHouse/MNZ-TaskerApp.git',
+    demo: 'https://taskerapp-mnz.netlify.app'
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    image: IMG4,
+    title: 'Bienes Raices',
+    github: 'https://github.com/MatiasNZamora/BienesRaices',
+    demo: 'http://bienesraices.matiasnzamora.com.ar'
+   
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'Happy Travel',
+    github: 'https://github.com/MNZ-codo-a-codo/Marginados-Final-',
+    demo: 'http://happytravel.matiasnzamora.com.ar'
   },
   {
     id: 4,
-    image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+    image: IMG2,
+    title: 'Magios Shop',
+    github: 'https://github.com/MNZ-codo-a-codo/Marginados-Final-',
+    demo: 'http://magiosshop.matiasnzamora.com.ar'
   },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-  }
+  
+  
 ]
 
 
