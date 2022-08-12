@@ -67,7 +67,7 @@ width: 100%;
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 89vh;
   }
 }
 
@@ -86,7 +86,7 @@ width: 100%;
 
   /* added after tutorial */
   .me {
-    width: 94%;
+    width: 95%;
     max-width: 20rem;
     margin-top: 2.5rem;
     justify-content: center;

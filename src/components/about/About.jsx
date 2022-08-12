@@ -4,7 +4,6 @@ import ME from '../../assets/mz-1.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
-import {certificate} from '../modals/certificate'
 
 const About = () => {
   return (
@@ -26,21 +25,21 @@ const About = () => {
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
               <small>Years Working</small> <br></br>
-              <a onClick={certificate}> View </a>
+              <a>View</a>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
               <small>Worldwide</small><br></br>
-              <a href="#" target="_blank"> View </a>
+              <a>View</a>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Certifications</h5>
-              <small>40+ Completed</small><br></br>
-              <a href="#" target="_blank"> View </a>
+              <small>10+ Completed</small><br></br>
+              <a>View</a>
             </article>
 
           </div>

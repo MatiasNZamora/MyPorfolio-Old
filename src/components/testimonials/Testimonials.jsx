@@ -3,7 +3,7 @@ import './testimonials.css'
 import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/magnolias.png'
 import AVTR3 from '../../assets/Sayp.png'
-import AVTR4 from '../../assets/avatar4.jpg'
+
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -30,11 +30,6 @@ const data = [
   {
     avatar: AVTR3,
     name: 'Sayp S.A - Farmacia',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
-  },
-  {
-    avatar: AVTR4,
-    name: 'Nana Ama McBrown',
     review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
   },
 ]
