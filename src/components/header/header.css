@@ -68,6 +68,8 @@ width: 100%;
 @media screen and (max-width: 1024px) {
   header {
     height: 89vh;
+    padding-top: 2rem;
+    overflow: hidden;
   }
 }
 

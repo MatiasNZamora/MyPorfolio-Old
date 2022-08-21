@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/mz-1.png'
+import ME from '../../assets/option-3.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -43,10 +43,9 @@ const About = () => {
             </article>
 
           </div>
-
           <p>
-            I am currently a full stack, self-taught front-end oriented developer with knowledge in back-end and DevOps. I started my studies in programming to learn how everything works.
-            Currently I am studying English and continue training and studying programming and design. I really like working in a team and helping as much as I can while I continue learning.
+            I am full stack, front-end oriented developer with knowledge in back-end and DevOps. I started my studies in programming to learn how everything works.
+            Currently I am studying English and continue training and studying programming and design. Gastronomy lover
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
