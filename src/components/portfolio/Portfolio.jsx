@@ -11,7 +11,7 @@ const data = [
     id: 1,
     image: IMG4,
     title: 'Bienes Raices',
-    github: 'https://github.com/MatiasNZamora/BienesRaices',
+    github: 'https://github.com/MatiasNZamora/bienesRaices.git',
     demo: 'http://bienesraices.matiasnzamora.com.ar',
     tech: '# Html | CSS'
   },
@@ -19,27 +19,26 @@ const data = [
     id: 2,
     image: IMG1,
     title: 'Tasker App',
-    github: 'https://github.com/MNZ-CoderHouse/MNZ-TaskerApp.git',
+    github: 'https://github.com/MatiasNZamora/task-page.git',
     demo: 'https://taskerapp-mnz.netlify.app',
     tech: '# JavaScript | Html | CSS'
   },
-  // {
-  //   id: 3,
-  //   image: IMG3,
-  //   title: 'Happy Travel',
-  //   github: 'https://github.com/MNZ-codo-a-codo/Marginados-Final-',
-  //   demo: 'http://happytravel.matiasnzamora.com.ar'
-  // },
   {
-    id: 4,
+    id: 3,
     image: IMG2,
     title: 'Magios Shop',
-    github: 'https://github.com/MNZ-codo-a-codo/Marginados-Final-',
+    github: 'https://github.com/MatiasNZamora/magiosshop.git',
     demo: 'http://magiosshop.matiasnzamora.com.ar',
     tech: '# React | Boostrap | JsonApi'
   },
-  
-  
+  {
+    id: 4,
+    image: IMG2,
+    title: 'Rest - Api',
+    github: 'https://github.com/MatiasNZamora/resApi-MongoDB.git',
+    demo:   'http://magiosshop.matiasnzamora.com.ar',
+    tech: '# NodeJS | Typescript | JWT | MongoDB | Passaport'
+  } 
 ]
 
 
@@ -59,7 +58,7 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                {/* <a href={github} className='btn' target='_blank'>Github</a> */}
+                <a href={github} className='btn' target='_blank'>Github</a>
                 <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
                 <br/>
               </div>

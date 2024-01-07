@@ -44,7 +44,7 @@ const About = () => {
 
           </div>
           <p>
-          ¡Hola! Soy Matias, un apasionado desarrollador backend con un enfoque especial en la creación de soluciones robustas del lado del servidor. Mi experiencia se centra en el desarrollo con NodeJS, y me especializo en el meta framework de NestJS.
+          Hi! I'm Matias, a FullStack developer with a special focus on backend and building robust server-side solutions, I am very passionate about my work.  My experience focuses on development with NodeJS. I specialize in the NestJS meta framework.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
