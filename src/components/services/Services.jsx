@@ -11,25 +11,7 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
-          </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Responsive Desing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p> Modern Desing. </p>
-            </li>
-          </ul>
-        </article>
-
-        {/* END OF UI/UX */}
-        <article className="service">
-          <div className="service__head">
-            <h3>Web Development</h3>
+            <h3> Wordpress </h3>
           </div>
 
           <ul className='service__list'>
@@ -39,15 +21,33 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p> website for companies. </p>
+              <p> Ecommerce. </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p> Shop Page. </p>
+              <p> Landing Page. </p>
+            </li>
+          </ul>
+        </article>
+
+        {/* END OF UI/UX */}
+        <article className="service">
+          <div className="service__head">
+            <h3>Backend Development</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p> Rest Api. </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p> Blogs with Wordpress. </p>
+              <p> Ecommerce Backend </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p> Micro Service. </p>
             </li>
           </ul>
         </article>
@@ -55,7 +55,7 @@ const Services = () => {
         {/* WEB DEVELOPMENT */}
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3> Content Creation </h3>
           </div>
 
           <ul className='service__list'>
@@ -65,7 +65,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p> front-end resources. </p>
+              <p> Programming web teacher </p>
             </li>
           </ul>
         </article>

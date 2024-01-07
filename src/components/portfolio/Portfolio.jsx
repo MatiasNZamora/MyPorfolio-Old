@@ -9,32 +9,34 @@ import IMG4 from '../../assets/bienesraices-1.png'
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'Tasker App',
-    github: 'https://github.com/MNZ-CoderHouse/MNZ-TaskerApp.git',
-    demo: 'https://taskerapp-mnz.netlify.app'
-  },
-  {
-    id: 2,
     image: IMG4,
     title: 'Bienes Raices',
     github: 'https://github.com/MatiasNZamora/BienesRaices',
-    demo: 'http://bienesraices.matiasnzamora.com.ar'
-   
+    demo: 'http://bienesraices.matiasnzamora.com.ar',
+    tech: '# Html | CSS'
   },
   {
-    id: 3,
-    image: IMG3,
-    title: 'Happy Travel',
-    github: 'https://github.com/MNZ-codo-a-codo/Marginados-Final-',
-    demo: 'http://happytravel.matiasnzamora.com.ar'
+    id: 2,
+    image: IMG1,
+    title: 'Tasker App',
+    github: 'https://github.com/MNZ-CoderHouse/MNZ-TaskerApp.git',
+    demo: 'https://taskerapp-mnz.netlify.app',
+    tech: '# JavaScript | Html | CSS'
   },
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: 'Happy Travel',
+  //   github: 'https://github.com/MNZ-codo-a-codo/Marginados-Final-',
+  //   demo: 'http://happytravel.matiasnzamora.com.ar'
+  // },
   {
     id: 4,
     image: IMG2,
     title: 'Magios Shop',
     github: 'https://github.com/MNZ-codo-a-codo/Marginados-Final-',
-    demo: 'http://magiosshop.matiasnzamora.com.ar'
+    demo: 'http://magiosshop.matiasnzamora.com.ar',
+    tech: '# React | Boostrap | JsonApi'
   },
   
   
@@ -49,7 +51,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, title, github, demo, tech}) => {
             return (
               <article key={id} className='portfolio__item'>
               <div className="portfolio__item-image">
@@ -57,9 +59,11 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>Github</a>
+                {/* <a href={github} className='btn' target='_blank'>Github</a> */}
                 <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <br/>
               </div>
+                <p>{tech}</p>
             </article>
             )
           })

@@ -32,6 +32,11 @@ const data = [
     name: 'Sayp S.A - Farmacia',
     review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
   },
+  {
+    avatar: AVTR3,
+    name: 'Sioux - Fabrica Textil',
+    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+  },
 ]
 
 
@@ -54,7 +59,7 @@ const Testimonials = () => {
                 <img src={avatar}/>
               </div>
               <h5 className='client__name'>{name}</h5>
-              <small className='client__review'>{review}</small>
+              {/* <small className='client__review'>{review}</small> */}
             </SwiperSlide>
             )
           })

@@ -24,28 +24,27 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>Years Working</small> <br></br>
-              <a>View</a>
+                {/* <small>Years Working</small> <br></br>
+              <a>View</a> */}
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>Worldwide</small><br></br>
-              <a>View</a>
+                {/* <small>Worldwide</small><br></br>
+              <a>View</a> */}
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Certifications</h5>
-              <small>10+ Completed</small><br></br>
-              <a>View</a>
+                {/* <small>10+ Completed</small><br></br>
+              <a>View</a> */}
             </article>
 
           </div>
           <p>
-            I am full stack, front-end oriented developer with knowledge in back-end and DevOps. I started my studies in programming to learn how everything works.
-            Currently I am studying English and continue training and studying programming and design. Gastronomy lover
+          ¡Hola! Soy Matias, un apasionado desarrollador backend con un enfoque especial en la creación de soluciones robustas del lado del servidor. Mi experiencia se centra en el desarrollo con NodeJS, y me especializo en el meta framework de NestJS.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

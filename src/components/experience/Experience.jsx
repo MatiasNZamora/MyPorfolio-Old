@@ -23,34 +23,34 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Bootstrap</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+                <h4> Librerias de CSS </h4>
+                <small className='text-light'> Bootstrap | Tailwind </small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4> React </h4>
+                <small className='text-light'>Redux | Native </small>
               </div>
             </article> 
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Saleforce - Administrator</h4>
+                <h4>Angular</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
@@ -65,42 +65,42 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Node JS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Express | JWT | Passport</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>MongoDB</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4> Batabase </h4>
+                <small className='text-light'>MongoDB | Postgress | MySQL</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>PHP</h4>
-                <small className='text-light'>Basic</small>
+                <h4> Testing </h4>
+                <small className='text-light'>Jest | Github Actions </small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>MySQL</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>Api</h4>
+                <small className='text-light'>Rest | JSon | GraphQL</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>DevOps</h4>
-                <small className='text-light'>Basic</small>
+                <h4> Containers </h4>
+                <small className='text-light'> Docker | Kubernetes </small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Saleforce - Development</h4>
-                <small className='text-light'>Basic</small>
+                <h4> other skills </h4>
+                <small className='text-light'>Scrum | Doc. Swagger</small>
               </div>
             </article>
           </div>
