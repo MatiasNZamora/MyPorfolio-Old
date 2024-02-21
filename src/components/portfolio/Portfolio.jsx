@@ -31,14 +31,7 @@ const data = [
     demo: 'http://magiosshop.matiasnzamora.com.ar',
     tech: '# React | Boostrap | JsonApi'
   },
-  {
-    id: 4,
-    image: IMG2,
-    title: 'Rest - Api',
-    github: 'https://github.com/MatiasNZamora/resApi-MongoDB.git',
-    demo:   'http://magiosshop.matiasnzamora.com.ar',
-    tech: '# NodeJS | Typescript | JWT | MongoDB | Passaport'
-  } 
+
 ]
 
 
